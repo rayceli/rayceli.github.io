@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    {% include header.html %}
+    <body class="complete">
+      <div class="container">
+        <div class="page_header">     
+          <h1 class="logo">
+            <a href="../index.html" title="home">Rayce<span></span></a>
+          </h1>        
+        </div>
+        <div class="notice">
+          <p class="inner info_bubble"></p>
+        </div>
+        <div class="inner wrap">                            
+          <div class="content body">
+            <div>
+              <section>
+                <!-- <a class="anchor" href="#part/i"> -->
+                  <h3>日志</h3>
+                <!-- </a> -->
+                {% for post in site.posts %}
+                  <h4><span>{{post.date | date_to_string}}</span> » <a href="{{post.url}}">{{post.title}}</a></h4>
+                {% endfor %}
+              </section>
+            </div>
+          </div>         
+          <div class="content_footer"></div>            
+        </div>
+      </div>
+      {% include footer.html %}
+    </body>
+</html>
