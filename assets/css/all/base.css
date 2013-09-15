@@ -59,7 +59,7 @@ caption {background:#eee;}
 body {
   font-size: 100%;
   color: #000;
-  background: #F6f6F6 url(../../images/bg/base.png) repeat 0 0;
+  background: #F6f6F6 url(/assets/images/bg/base.png) repeat 0 0;
 }
 
 h3 {
@@ -159,7 +159,7 @@ table {
   -moz-box-shadow: inset 0px 0px 8px #999;
   -webkit-box-shadow: inset 0px 0px 8px #999;
   box-shadow: inset 0px 0px 8px #999;
-  background: #F6f6F6 url(../../images/bg/base.png) repeat 0 0;
+  background: #F6f6F6 url(/assets/images/bg/base.png) repeat 0 0;
 }
 
 th {
@@ -396,7 +396,7 @@ container: 12*60px (unit) + 13*16px (gutter) = 928px = 58em = 100%
 .stage {
   margin-bottom: 1.5em;
   padding: 3em 50% 1.5em 3em;
-  background: #FFF url(../../images/book.png) no-repeat 120% 50%;
+  background: #FFF url(/assets/images/book.png) no-repeat 120% 50%;
 }
 
 /* bold list of editions on startpage */
@@ -469,7 +469,7 @@ container: 12*60px (unit) + 13*16px (gutter) = 928px = 58em = 100%
   left: -2em;
   width: 40px;
   height: 40px;
-  background: transparent url(../../images/bubble/left.png) no-repeat 50% 50%;
+  background: transparent url(/assets/images/bubble/left.png) no-repeat 50% 50%;
   z-index: 100;
 }
 
@@ -480,7 +480,7 @@ container: 12*60px (unit) + 13*16px (gutter) = 928px = 58em = 100%
 
 /* footer */
 .footer {
-  background: #4A4A4A url(../../images/bg/footer.png) repeat-x 0 0;
+  background: #4A4A4A url(/assets/images/bg/footer.png) repeat-x 0 0;
   margin: 1.5em 0 0 0;
   padding: 1.5em 0 0 0;
   overflow: hidden;
@@ -610,7 +610,7 @@ input[type="text"] {
   padding: .5em .5em .3em;
   border: 1px solid #F1F1F0;
   color: #666;
-  background: #CCC url(../../images/bg/dark.png) repeat 0 0;
+  background: #CCC url(/assets/images/bg/dark.png) repeat 0 0;
 
   -moz-box-shadow: inset 3px 3px 2px #999;
   -webkit-box-shadow: inset 3px 3px 2px #999;
@@ -780,9 +780,9 @@ pre {
 
 /* prevent wrapping of code tags */
 
-code {
+/*code {
 	white-space: nowrap;
-}
+}*/
 
 .aside {
   position: relative;
@@ -791,15 +791,15 @@ code {
   margin: .5em 0 1.5em -3em;
   padding: 2.5em 2em 0 7em;
   border-bottom: 1px solid #CCC;
-  background: #FFF url(../../images/bg/aside/base.png) no-repeat 0 0;
+  background: #FFF url(/assets/images/bg/aside/base.png) no-repeat 0 0;
 }
 
 .aside.note {
-  background-image: url(../../images/bg/aside/note.png);
+  background-image: url(/assets/images/bg/aside/note.png);
 }
 
 .aside.warning {
-  background-image: url(../../images/bg/aside/warning.png);
+  background-image: url(/assets/images/bg/aside/warning.png);
 
 }
 
@@ -825,7 +825,7 @@ code {
     left: 2em;
     width: 40px;
     height: 40px;
-    background: transparent url(../../images/bubble/up.png) no-repeat 50% 50%;
+    background: transparent url(/assets/images/bubble/up.png) no-repeat 50% 50%;
   }
 
 
